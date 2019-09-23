@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
   def goodbye
     render html: 'testing2'
   end
+
+  def test
+    render html: 'hello there, this is yet another test'
+  end
 end
